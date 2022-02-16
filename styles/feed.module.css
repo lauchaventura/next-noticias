@@ -1,0 +1,59 @@
+.main {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-column-gap: 20px;
+  }
+  .post {
+    border-spacing: 10px;
+    width: 500px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+  .post img {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .post h1 {
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .post h1:hover {
+    text-decoration: underline;
+  }
+  .post p {
+    text-align: center;
+  }
+  .paginator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .paginator div {
+    margin: 25px;
+  }
+  .paginator .active {
+    cursor: pointer;
+  }
+  .paginator .disabled {
+    cursor: not-allowed;
+    color: rgb(179, 179, 179);
+  }
+.button {
+    background: black;
+    border: 2px solid black;
+    color: white;
+    transition-duration: 0.3s;
+    font-family: 'PT Sans', sans-serif;
+}
+.button:hover{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    border: 2px solid rgb(49, 49, 49);
+}
